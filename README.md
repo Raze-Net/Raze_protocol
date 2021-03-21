@@ -1,5 +1,6 @@
 # Raze Protocol
-[raze.network](https://www.raze.network/)
+> <img alt="" padding="10 0" src="https://github.com/Raze-Net/Raze_website/blob/main/favicon.png" height="20"> Raze Network
+> [raze.network](https://www.raze.network/)
 
 ## Project Overview
 Raze protects payment anonymity and confidentiality on blockchains. It will consist of frontend clients and backend Smart contracts algorithms, which serve as an agency with proven security and privacy by making use of well-established cryptographic protocols.
