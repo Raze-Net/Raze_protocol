@@ -17,4 +17,8 @@ Since the balance and transaction amount of each Raze account is encrypted and t
 
 The redeem module converts the anonymized token back to its original form. The redeem module also needs to invoke a zero-knowledge proof functionality to prove that the user initiating the redeem module knows the secret key of the corresponding Raze account and the redeemed amount is smaller than the Raze account balance.
 
+<p align="center">
+   <img src="https://github.com/razenetwork/Raze_Network/blob/main/image/image1.png" alt="" width="70%"/>
+</p>
+
 To sum up, Raze uses public-key homomorphic encryption to ensure transaction details  remain confidential and uses the "one-out-of-many" proof to hide the sender and receiver identities, and some other zero-knowledge proof schemes are also used to guarantee the payment consistency. Whenever a user deposits a certain amount of token through invoking the mint module, the token is no longer traceable.
