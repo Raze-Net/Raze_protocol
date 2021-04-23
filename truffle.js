@@ -1,3 +1,4 @@
+const Web3 = require('web3');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 var mnemonic = "forest sentence vacant solid craft satoshi cash bridge science uncle weekend sea";
 
@@ -35,6 +36,11 @@ module.exports = {
         confirmations: 10,
         timeoutBlocks: 200,
         skipDryRun: true
+    },
+    greyh: {
+        provider: () => new Web3.providers.HttpProvider('https://smartbch.greyh.at'),
+        network_id: "*",
+        //confirmations: 10
     }
   },
 
